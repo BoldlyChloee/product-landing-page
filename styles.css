@@ -1,0 +1,48 @@
+/* this is for the header itself*/
+#header {
+  position: fixed;
+  top: 0; 
+  min-height: 30px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  background-color: #dee0dc
+}
+/* this is the header image */
+#header-img {
+  max-width: 30%;
+  height: auto;
+}
+
+/* all of this is for the header's links */
+.nav-link {
+  font-family: "Comic Sans MS";
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  color: #55c2c2;
+  text-align: center; 
+  padding: 14px 16px;
+}
+
+li a:hover {
+  color: #89c1c6
+}
